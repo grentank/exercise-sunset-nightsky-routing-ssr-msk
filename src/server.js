@@ -22,4 +22,6 @@ app.get('/', (req, res) => {
   res.end(html);
 });
 
+// Создайте новые endpoint здесь
+
 app.listen(PORT, () => console.log(`App has started on port ${PORT}`));
